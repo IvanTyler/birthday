@@ -1,0 +1,24 @@
+@import url('./variables/main-variables.less');
+@import url('./mixins/main.less');
+
+.furnishing-process {
+    background-color: #EFF2FD;
+
+    &__title {
+        .title();
+        text-align: center;
+    }
+}
+
+.container-furnishing-process {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 764px;
+
+    @media (max-width: 768px) {
+        max-width: initial;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

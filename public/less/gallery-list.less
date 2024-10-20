@@ -1,0 +1,116 @@
+@import url('./variables/main-variables.less');
+@import url('./mixins/main.less');
+
+.gallery-list {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 281px));
+    gap: 12px;
+    margin-top: 40px;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 12px 0;
+
+        a {
+            max-width: 100%;
+        }
+
+        @media (max-width: 350px) {
+            gap: 10px;
+        }
+    }
+
+    &__item.col-1 {
+        a:nth-of-type(1) {
+            height: 300px;
+        }
+
+        a:nth-of-type(2) {
+            max-width: 100%;
+            height: 425px;
+        }
+
+        a:nth-of-type(3) {
+            height: 504px;
+        }
+    }
+
+    &__item.col-2 {
+        a:nth-of-type(1) {
+            height: 300px;
+        }
+
+        a:nth-of-type(2) {
+            height: 187px;
+        }
+
+        a:nth-of-type(3) {
+            height: 504px;
+        }
+    }
+
+    &__item.col-3 {
+
+        a:nth-of-type(1),
+        a:nth-of-type(2),
+        a:nth-of-type(4),
+        a:nth-of-type(5) {
+            height: 187px;
+        }
+
+        a:nth-of-type(3) {
+            height: 428px;
+        }
+    }
+
+    &__item.col-4 {
+
+        a:nth-of-type(1) {
+            height: 220px;
+        }
+
+        a:nth-of-type(2),
+        a:nth-of-type(4) {
+            height: 187px;
+        }
+
+        a:nth-of-type(3) {
+            height: 428px;
+        }
+    }
+
+    &__img {
+        border-radius: 8px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.gallery-list.mobile-list_1 {
+    display: none;
+
+    @media (max-width: 1030px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (max-width: 770px) {
+        display: none;
+    }
+}
+
+.gallery-list.mobile-list_2 {
+    display: none;
+
+    @media (max-width: 770px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 350px) {
+        gap: 10px;
+    }
+}

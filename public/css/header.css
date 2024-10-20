@@ -1,0 +1,116 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 32px;
+  height: 40px;
+  text-align: center;
+  font-family: 'FuturaPT';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  border-radius: 88px;
+  cursor: pointer;
+}
+.title {
+  color: #11172E;
+  font-family: 'FuturaPT';
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 126%;
+}
+@media (max-width: 1030px) {
+  .title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .title {
+    font-size: 32px;
+  }
+}
+.input {
+  height: 64px;
+  padding: 0 20px;
+  border-radius: 16px;
+  font-family: 'FuturaPT';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 126%;
+}
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.input-phone {
+  padding-left: 52px;
+  background-repeat: no-repeat;
+  background-position: 20px center;
+}
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+  background-color: #FFF;
+  transition: box-shadow 0.2s;
+}
+.header__logo-link {
+  grid-area: logo;
+}
+.header__request {
+  grid-area: button;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 32px;
+  height: 40px;
+  text-align: center;
+  font-family: 'FuturaPT';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  border-radius: 88px;
+  cursor: pointer;
+  background-color: #CE1A30;
+  color: #fff;
+}
+@media (max-width: 1060px) {
+  .header__request {
+    display: none;
+  }
+}
+.header__request.mobile {
+  display: flex;
+}
+.header__sandwich {
+  display: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background-image: url('../icon/common/sandwich.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (max-width: 1030px) {
+  .header__sandwich {
+    display: inline-block;
+  }
+}
+.header__sandwich.open {
+  background-image: url('../icon/common/close-black.svg');
+}
+.header.scroll {
+  box-shadow: 0 4px 24px 0px rgba(0, 0, 0, 0.08);
+}
+.container-header {
+  grid-template-areas: 'logo nav-menu button';
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  max-width: 1760px;
+}

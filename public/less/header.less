@@ -1,0 +1,64 @@
+@import url('./variables/main-variables.less');
+@import url('./mixins/main.less');
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #FFF;
+    transition: box-shadow @var-transition;
+
+    &__logo-link {
+        grid-area: logo;
+    }
+
+    &__request {
+        grid-area: button;
+        .button();
+        background-color: @var-mainColor;
+        color: #fff;
+
+        @media (max-width: 1060px) {
+            display: none;
+        }
+    }
+
+    &__request.mobile {
+        display: flex;
+    }
+
+    &__sandwich {
+        display: none;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        background-image: url('../icon/common/sandwich.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+
+        @media (max-width: 1030px) {
+            display: inline-block;
+        }
+    }
+
+    &__sandwich.open {
+        background-image: url('../icon/common/close-black.svg');
+    }
+}
+
+.header.scroll {
+    box-shadow: 0 4px 24px 0px rgba(0, 0, 0, 0.08);
+}
+
+.container-header {
+    grid-template-areas: 'logo nav-menu button';
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    max-width: 1760px;
+}

@@ -1,0 +1,55 @@
+@import url('../variables/main-variables.less');
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 32px;
+    height: 40px;
+    text-align: center;
+    font-family: @var-mainFont;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    border-radius: 88px;
+    cursor: pointer;
+}
+
+.title {
+    color: #11172E;
+    font-family: @var-mainFont;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 126%;
+
+    @media (max-width: 1030px) {
+        font-size: 40px;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 32px;
+    }
+}
+
+.input {
+    height: 64px;
+    padding: 0 20px;
+    border-radius: 16px;
+    font-family: @var-mainFont;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 126%;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+}
+
+.input-phone {
+    padding-left: 52px;
+    // background-image: url('../../public/img/make-a-request/UAE.png');
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
