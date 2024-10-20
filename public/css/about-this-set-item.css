@@ -5,7 +5,6 @@
   padding: 0 32px;
   height: 40px;
   text-align: center;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -14,7 +13,6 @@
 }
 .title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -33,7 +31,6 @@
   height: 64px;
   padding: 0 20px;
   border-radius: 16px;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 126%;
@@ -72,7 +69,6 @@
 .about-this-set-item__title {
   margin-top: 16px;
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 18px;
   font-weight: 500;
   line-height: 148%;
@@ -80,7 +76,6 @@
 .about-this-set-item__description {
   margin-top: 8px;
   color: #262830;
-  font-family: 'FuturaPT';
   font-size: 16px;
   font-weight: 400;
   line-height: 126%;

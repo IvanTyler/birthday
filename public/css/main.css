@@ -52,7 +52,6 @@ body {
   padding: 0 32px;
   height: 40px;
   text-align: center;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -61,7 +60,6 @@ body {
 }
 .title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -80,7 +78,6 @@ body {
   height: 64px;
   padding: 0 20px;
   border-radius: 16px;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 126%;
@@ -135,7 +132,6 @@ body {
 }
 .discuss-your-project-form__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -165,7 +161,6 @@ body {
   height: 64px;
   padding: 0 20px;
   border-radius: 16px;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 126%;
@@ -199,7 +194,6 @@ body {
   padding: 0 32px;
   height: 40px;
   text-align: center;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -231,7 +225,6 @@ body {
   padding: 0 32px;
   height: 40px;
   text-align: center;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -418,7 +411,6 @@ body {
   color: #8B8B9E;
 }
 .slider__title {
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -802,7 +794,6 @@ body {
   padding: 0 32px;
   height: 40px;
   text-align: center;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -1185,7 +1176,6 @@ body {
 .design-project-cost__title {
   grid-area: title;
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -1402,7 +1392,6 @@ body {
 }
 .what-you-will-get__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -1425,7 +1414,6 @@ body {
   padding: 0 32px;
   height: 40px;
   text-align: center;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -1593,7 +1581,6 @@ body {
   padding: 0 32px;
   height: 40px;
   text-align: center;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -1648,7 +1635,6 @@ body {
 }
 .you-may-also-like__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -1735,7 +1721,6 @@ body {
 .about-this-set__title {
   grid-area: title;
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -1777,7 +1762,6 @@ body {
   padding: 0 32px;
   height: 40px;
   text-align: center;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -1830,7 +1814,6 @@ body {
 .about-this-set-item__title {
   margin-top: 16px;
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 18px;
   font-weight: 500;
   line-height: 148%;
@@ -1838,7 +1821,6 @@ body {
 .about-this-set-item__description {
   margin-top: 8px;
   color: #262830;
-  font-family: 'FuturaPT';
   font-size: 16px;
   font-weight: 400;
   line-height: 126%;
@@ -1885,7 +1867,6 @@ body {
 }
 .furnishing-project__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -1927,7 +1908,6 @@ body {
   padding: 0 32px;
   height: 40px;
   text-align: center;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -1972,7 +1952,6 @@ body {
   }
 }
 .service-furni__title {
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -2110,7 +2089,6 @@ body {
 }
 .home-care-service__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -2137,7 +2115,6 @@ body {
   padding: 0 32px;
   height: 40px;
   text-align: center;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -2643,7 +2620,6 @@ body {
 }
 .our-portfolio__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -2726,7 +2702,6 @@ body {
 }
 .furnishing-process__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -2925,7 +2900,6 @@ body {
 .get-shopping-list-free__title {
   grid-area: title;
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -3026,7 +3000,6 @@ body {
   height: 64px;
   padding: 0 20px;
   border-radius: 16px;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 126%;
@@ -3047,7 +3020,6 @@ body {
   padding: 0 32px;
   height: 40px;
   text-align: center;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -3079,7 +3051,6 @@ body {
 }
 .gallery__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -3191,7 +3162,6 @@ body {
   background-color: #EFF2FD;
 }
 .our-projects__title {
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -3427,7 +3397,6 @@ body {
 }
 .get-design-project-gift__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -3529,7 +3498,6 @@ body {
   padding: 0 32px;
   height: 40px;
   text-align: center;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -3550,7 +3518,6 @@ body {
 }
 .furniture-layout-project__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -3587,7 +3554,6 @@ body {
 }
 .furniture-collage__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -3632,7 +3598,6 @@ body {
 }
 .approved-furniture-estimate__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -3665,7 +3630,6 @@ body {
 }
 .faq__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -3760,7 +3724,6 @@ body {
 }
 .furni-information__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -3862,7 +3825,6 @@ body {
 }
 .make-a-request__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -3915,7 +3877,6 @@ body {
   height: 64px;
   padding: 0 20px;
   border-radius: 16px;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 126%;
@@ -3954,7 +3915,6 @@ body {
   padding: 0 32px;
   height: 40px;
   text-align: center;
-  font-family: 'FuturaPT';
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -3988,7 +3948,6 @@ body {
 .page-not-found__title {
   margin-top: 40px;
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -4046,7 +4005,6 @@ body {
 }
 .request-sent__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
@@ -4109,7 +4067,6 @@ body {
 }
 .payment__title {
   color: #11172E;
-  font-family: 'FuturaPT';
   font-size: 46px;
   font-weight: 700;
   line-height: 126%;
